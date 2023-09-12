@@ -1,0 +1,55 @@
+.header ,.leader{
+    background: url('./../img/images.jpg') no-repeat ;
+    background-size: cover;
+    height: 100vh; 
+    max-width: 100vw;
+   
+}
+.hero{
+    position: relative;
+    z-index: 3;
+    height: 100vh;
+}
+.head ,.child-leader{
+    background-color: rgb(110, 110, 238);
+    background-size: cover;
+    opacity: 0.5;
+    height: 100%;
+     width: 100%;
+}
+
+
+.first{
+    top: 40px;
+}
+
+.category .card{
+    background-color: rgb(199, 219, 219);
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+
+}
+
+.fa-brands {
+    color: blue;
+    text-align: center;
+}
+
+.Instructor , .school ,.course{
+    background-color: rgb(218, 217, 217);
+}
+.Instructor img{
+    width: 290px;
+    height: 350px;
+}
+.education .card{
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
